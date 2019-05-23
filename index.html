@@ -59,8 +59,20 @@
             <a class="nav-link js-scroll-trigger" href="#dns">DNS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#dnnsec">DNSSEC</a>
-          </li>          
+            <a class="nav-link js-scroll-trigger" href="#ba">Bản ghi A</a>
+          </li>       
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#ar">A Record</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#ns">NS Record</a>
+          </li>     
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#ca">C Name</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#mx">MX R</a>
+          </li>     
         </ul>
       </div>
     </div>
@@ -227,26 +239,82 @@ services        </div>
       </div>
     </div>
   </header>
-  
-   <!-- Masthead -->
-  <header class="masthead"  id="dnssec">
+  <!-- Masthead -->
+  <header class="masthead"  id="ba">
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">DNSSEC</h1>
+          <h1 class="text-uppercase text-white font-weight-bold">Bản ghi A</h1>
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">DNSSEC là công nghệ an toàn mở rộng cho hệ thống DNS. Trong đó DNSSEC sẽ cung cấp một cơ chế xác thực giữa các máy chủ DNS với nhau và xác thực cho từng zone dữ liệu để đảm bảo toàn vẹn dữ liệu.</p>
-          <p class="text-white-75 font-weight-light mb-5">.NET Dành cho các tổ chức, cá nhân hoạt động trong lĩnh vực thiết lập và cung cấp các dịch vụ trên mạng.</p>
-          <p class="text-white-75 font-weight-light mb-5">.ORG Dành cho các tổ chức hoạt động trong lĩnh vực chính trị, văn hoá xã hội.</p>
-          <p class="text-white-75 font-weight-light mb-5">.INT Dành cho các tổ chức quốc tế tại Việt Nam.</p>
-          <p class="text-white-75 font-weight-light mb-5">.AC Dành cho các tổ chức, cá nhân hoạt động trong lĩnh vực nghiên cứu.</p>
-          <p class="text-white-75 font-weight-light mb-5">.PRO Dành cho các tổ chức, cá nhân hoạt động trong những lĩnh vực có tính chuyên ngành cao.</p>
-          <p class="text-white-75 font-weight-light mb-5">.INFO Dành cho các tổ chức hoạt động trong lĩnh vực sản xuất phân phối, cung cấp thông tin.</p>
-          <p class="text-white-75 font-weight-light mb-5">.HEALTH Dành cho các tổ chức, cá nhân hoạt động trong lĩnh vực dược, y tế.</p>
-          <p class="text-white-75 font-weight-light mb-5">.NAME Dành cho tên riêng của cá nhân tham gia hoạt động Internet.</p>
-          <p class="text-white-75 font-weight-light mb-5">.ASIA Dành cho các tổ chức cá nhân có thể đăng ký được nhưng về ý nghĩa  thuộc vị trí địa lý Châu Á.</p>                    
+          <p class="text-white-75 font-weight-light mb-5">Được sử dụng để gắn một domain với một địa chỉ IPv4 cụ thể theo cấu trúc name - value, trong đó name sẽ là hostname hoặc một subdomain.</p>
+          <p class="text-white-75 font-weight-light mb-5">ns1.pavietnam.vn</p>
+          <p class="text-white-75 font-weight-light mb-5">ns2.pavietnam.vn </p>
+          <p class="text-white-75 font-weight-light mb-5">nsbak.pavietnam.net</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+   <!-- Masthead -->
+  <header class="masthead"  id="ar">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-10 align-self-end">
+          <h1 class="text-uppercase text-white font-weight-bold">A Record</h1>
+          <hr class="divider my-4">
+        </div>
+        <div class="col-lg-8 align-self-baseline">
+          <p class="text-white-75 font-weight-light mb-5">Adress Record là tên đầy đủ. Đây là một record quan trọng nhằm diễn dịch (ánh xạ) một domain thành địa chỉ IP.</p>
+          <p class="text-white-75 font-weight-light mb-5">Ví dụ: ánh xạ www.pavietnam.vn thành 42.117.3.208 chẳng hạn.</p>                   
+        </div>
+      </div>
+    </div>
+  </header>
+  
+   <!-- Masthead -->
+  <header class="masthead"  id="ns">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-10 align-self-end">
+          <h1 class="text-uppercase text-white font-weight-bold">NS Record</h1>
+          <hr class="divider my-4">
+        </div>
+        <div class="col-lg-8 align-self-baseline">
+          <p class="text-white-75 font-weight-light mb-5">Thông thường, sau khi đăng ký hosting thì người dùng sẽ được cung cấp gồm địa chỉ IP và một số NS record dạng ns.domain.com, ns1.domain.com, ns2.domain.com.</p>
+          <p class="text-white-75 font-weight-light mb-5">Nhiệm vụ của chúng ta là dùng nó để cấu hình vào tên miền của mình.</p>    
+          <p class="text-white-75 font-weight-light mb-5">NS Record cũng có chức năng tương tự như A Record. Nhưng mà NS Record thường ở dạng sub domain và đã được ánh xạ vào một địa chỉ IP rồi. Do đó, dùng NS Record sẽ lâu hơn dùng A Record.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+   <!-- Masthead -->
+  <header class="masthead"  id="cn">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-10 align-self-end">
+          <h1 class="text-uppercase text-white font-weight-bold">C Name</h1>
+          <hr class="divider my-4">
+        </div>
+        <div class="col-lg-8 align-self-baseline">
+          <p class="text-white-75 font-weight-light mb-5">Trên website của mình, khi gõ email.domain.com nó sẽ tự động chuyển sang một địa chỉ khác như pavietnam.com.vn hoặc bạn muốn khi người dùng gõ vietiso.com thì nó sẽ chuyển thành www.pavietnam.vn thì lúc đó chúng ta sẽ dùng đến C Name (Canonical Name).</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+     <!-- Masthead -->
+  <header class="masthead"  id="mx">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-10 align-self-end">
+          <h1 class="text-uppercase text-white font-weight-bold">MX Record</h1>
+          <hr class="divider my-4">
+        </div>
+        <div class="col-lg-8 align-self-baseline">
+          <p class="text-white-75 font-weight-light mb-5">Mail Exchange dùng để xác định Mail Server cho một domain. Ví dụ khi bạn gửi email tới info@vietiso.com, mail server sẽ xem xét MX Record có trong cấu hình của tên miền vietiso.com. Xem nó được điểu khiển chính xác bởi mail server nào và sẽ chuyển mail đến server đó</p>
         </div>
       </div>
     </div>
