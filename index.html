@@ -1,3 +1,24 @@
+Skip to content
+Why GitHub? 
+Enterprise
+Explore 
+Marketplace
+Pricing 
+Search
+
+Sign in
+Sign up
+0 0 0 dangphamdns/dangphamdns.github.io
+ Code  Issues 0  Pull requests 0  Projects 0  Security  Insights
+Join GitHub today
+GitHub is home to over 36 million developers working together to host and review code, manage projects, and build software together.
+
+dangphamdns.github.io/index.html
+@dangphamdns dangphamdns Update index.html
+f8be76e 3 days ago
+@dangphamdns @dangphampa
+330 lines (300 sloc)  21.3 KB
+  
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,29 +51,29 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Domain-Tên miền</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Domain</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Domain VN</a>
+            <a class="nav-link js-scroll-trigger" href="#about">Redirect</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Domain QT</a>
+            <a class="nav-link js-scroll-trigger" href="#services">Address</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Chọn Domain VN</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">CNAME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Addon Domain</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">MX</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#park">Parked Domain</a>
+            <a class="nav-link js-scroll-trigger" href="#park">Blogspot</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#subdomain">Sub Domain</a>
+            <a class="nav-link js-scroll-trigger" href="#subdomain">Google site</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#bw">Bandwidth</a>
@@ -82,15 +103,16 @@
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">Domain - Tên miền</h1>
+          <h1 class="text-uppercase text-white font-weight-bold">Trỏ tên miền về hosting</h1>
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Tên miền là tên được sử dụng để định danh địa chỉ Internet của máy chủ gồm các dãy ký tự cách nhau bằng dấu chấm “.”.</p>
-          <p class="text-white-75 font-weight-light mb-5">Tên miền dùng các kí tự dựa trên cơ sở bảng mã ASCII, sau đây gọi là tên miền mã ASCII;</p>
-          <p class="text-white-75 font-weight-light mb-5">Tên miền dùng bảng chữ cái dựa trên cơ sở ngôn ngữ truyền thống của từng quốc gia, sau đây gọi là tên miền đa ngữ (IDN)</p>
-          <p class="text-white-75 font-weight-light mb-5">Tên miền Việt Nam Là Tên miền được cấp phát bởi Trung Tâm Internet Việt Nam ( VNNIC)</p>
-          <p class="text-white-75 font-weight-light mb-5">Tên miền Quốc Tế Là tên miền được cấp phát do Tổ chức Quản lý Tên miền Quốc tế ICANN (www.icann.org) cấp phát. Tên miền quốc tế dùng chung cho các quốc gia</p>
+          <p class="text-white-75 font-weight-light mb-5">Chọn tên miền pavietnam.com.vn</p>
+          <p class="text-white-75 font-weight-light mb-5">B1>Tạo bản ghi A:Tên bản ghi: @ , Loại: A, Giá trị: Nhập địa chỉ IP của hosting</p>
+          <p class="text-white-75 font-weight-light mb-5">VD: @ A 203.113.172.116</p>
+          <p class="text-white-75 font-weight-light mb-5">B2>Tạo bản ghi CNAME:Tên bản ghi: www, Loại: CNAME, Giá trị: nhập tên miền</p>
+          <p class="text-white-75 font-weight-light mb-5">VD: www CNAME pavietnam.com.vn</p>
+          <p class="text-white-75 font-weight-light mb-5">B2>Sau khi Cập nhật thành công, các bản ghi sẽ có hiệu lực chậm nhất không quá 30 phút.Sau 5 đến 10 phút ta sử dụng công cụ cmd để thực hiện ping kiểm tra, nếu trỏ thành công ta sẽ nhận được ping về IP 203.113.172.116</p>
         </div>
       </div>
     </div>
@@ -100,19 +122,12 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
-          <h2 class="text-white mt-0">Tên miền quốc gia Việt Nam</h2>
+          <h2 class="text-white mt-0">URL Redirect là bản ghi chuyển hướng truy cập</h2>
           <hr class="divider light my-4">
-          <p class="text-white-50 mb-4">- Tên miền quốc gia Việt Nam: là tập hợp tên miền các cấp dưới tên miền quốc gia Việt Nam cấp cao nhất “.vn” (sau đây gọi chung là tên miền “.vn”) và tên miền các cấp dưới tên miền cấp cao nhất khác thuộc quyền quản lý của Việt Nam</p>
-          <p class="text-white-50 mb-4">- Phân việt các loại tên miền .VN : Có 2 loại</p>
-          <p class="text-white-50 mb-4">+ Tên miền cấp 2 : ví dụ như .vn</p>
-          <p class="text-white-50 mb-4">+ Tên miền cấp 3 : ví dụ như .com.vn / .net.vn</p>
-          <p class="text-white-50 mb-4">. COM.VN : Dành cho tổ chức, doanh nghiệp, cá nhân họat động thương mại.</p>
-          <p class="text-white-50 mb-4">. BIZ.VN : Dành cho các tổ chức, doanh nghiệp, cá nhân kinh doanh, tương đương với COM.VN.</p>
-          <p class="text-white-50 mb-4">. EDU.VN : Dành cho các cơ quan, tổ chức, doanh nghiệp có hoạt động liên quan tới giáo dục, đào tạo. Hoặc cá nhân</p>
-          <p class="text-white-50 mb-4">. GOV.VN : Dành cho các cơ quan, tổ chức thuộc bộ máy nhà nước ở trung ương và địa phương.</p>
-          <p class="text-white-50 mb-4">. NET.VN: Dành cho các cơ quan, tổ chức, doanh nghiệp, cá nhân  thực hiện chức năng về mạng nói chung.</p>
-          <p class="text-white-50 mb-4">. ORG.VN : Dành cho các tổ chức chính trị, xã hội và các cơ quan, tổ chức, doanh nghiệp có hoạt động liên quan đến lĩnh vực chính trị, xã hội.</p>
-          <p class="text-white-50 mb-4">. INT.VN : Dành cho các tổ chức quốc tế tại Việt Nam.</p>
+          <p class="text-white-50 mb-4">Bản ghi này được sử dụng trong trường hợp bạn có 1 tên miền muốn người truy nhập khi gõ tên miền này thì tự động chuyển đến website của 1 tên miền khác</p>
+          <p class="text-white-50 mb-4">VD: Trỏ bản ghi URL Redirect cho tên miền pavietnam.com.vn về trang https://pavietnam.vn. Khi gõ pavietnam.com.vn sẽ vào trang https://pavietnam.vn</p>
+          <p class="text-white-50 mb-4">@ Url Redirect pavietnam.vn (Khai báo bản ghi Redirect:- Tên bản ghi: @ - Loại bản ghi: Url Redirect - Giá trị bản ghi: pavietnam.vn)</p>
+          <p class="text-white-50 mb-4">pavietnam.vn Url Redirect http://pavietnam.vn (Khai báo bản ghi Redirect:- Tên bản ghi: pavietnam.vn - Loại bản ghi: Url Redirect - Giá trị bản ghi: http://pavietnam.vn)</p>
         </div>
       </div>
     </div>
@@ -123,25 +138,14 @@
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">Tên miền Quốc Tế</h1>
+          <h1 class="text-uppercase text-white font-weight-bold">Bản ghi A ánh xạ 1 tên miền với 1 địa chỉ IP</h1>
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Là tên miền được cấp phát do Tổ chức Quản lý Tên miền Quốc tế ICANN (www.icann.org) cấp phát. Tên miền quốc tế dùng chung cho các quốc gia.</p>
-          <p class="text-white-75 font-weight-light mb-5">Tên miền quốc tế có các đuôi trực thuộc và ý nghĩa của nhóm tên miền Quốc tế như sau:</p>
-          <p class="text-white-75 font-weight-light mb-5">.COM Dành cho tổ chức, cá nhân hoạt động thương mại.</p>
-          <p class="text-white-75 font-weight-light mb-5">.BIZ Dành cho các tổ chức, cá nhân hoạt động kinh doanh</p>
-          <p class="text-white-75 font-weight-light mb-5">.EDU Dành cho các tổ chức, cá nhân hoạt động trong lĩnh vực giáo dục, đào tạo.</p>
-          <p class="text-white-75 font-weight-light mb-5">.GOV Dành cho các cơ quan, tổ chức nhà nước ở trung ương và địa phương.</p>
-          <p class="text-white-75 font-weight-light mb-5">.NET Dành cho các tổ chức, cá nhân hoạt động trong lĩnh vực thiết lập và cung cấp các dịch vụ trên mạng.</p>
-          <p class="text-white-75 font-weight-light mb-5">.ORG Dành cho các tổ chức hoạt động trong lĩnh vực chính trị, văn hoá xã hội.</p>
-          <p class="text-white-75 font-weight-light mb-5">.INT Dành cho các tổ chức quốc tế tại Việt Nam.</p>
-          <p class="text-white-75 font-weight-light mb-5">.AC Dành cho các tổ chức, cá nhân hoạt động trong lĩnh vực nghiên cứu.</p>
-          <p class="text-white-75 font-weight-light mb-5">.PRO Dành cho các tổ chức, cá nhân hoạt động trong những lĩnh vực có tính chuyên ngành cao.</p>
-          <p class="text-white-75 font-weight-light mb-5">.INFO Dành cho các tổ chức hoạt động trong lĩnh vực sản xuất phân phối, cung cấp thông tin.</p>
-          <p class="text-white-75 font-weight-light mb-5">.HEALTH Dành cho các tổ chức, cá nhân hoạt động trong lĩnh vực dược, y tế.</p>
-          <p class="text-white-75 font-weight-light mb-5">.NAME Dành cho tên riêng của cá nhân tham gia hoạt động Internet.</p>
-          <p class="text-white-75 font-weight-light mb-5">.ASIA Dành cho các tổ chức cá nhân có thể đăng ký được nhưng về ý nghĩa  thuộc vị trí địa lý Châu Á.</p>                    
+          <p class="text-white-75 font-weight-light mb-5">Bản ghi này được sử dụng để trỏ tên miền về 1 địa chỉ IP xác định. Thường được sử dụng trong các trường hợp như trỏ tên miền về hosting; trỏ tên miền về server mail …v..v</p>
+          <p class="text-white-75 font-weight-light mb-5">VD: Trỏ tên miền pavietnam.com.vn về hosting có địa chỉ IP 202.92.4.44</p>
+          <p class="text-white-75 font-weight-light mb-5">@ A 202.92.4.44(Khai báo bản ghi A ở tên miền pavietnam.com.vn: Tên bản ghi: @ - Loại bản ghi: A - Giá trị bản ghi: 202.92.4.44)</p>
+          <p class="text-white-75 font-weight-light mb-5">Sau khi cập nhật xong ta kiểm tra bằng cách ping tên miền ra IP 202.92.4.44 là đã khai báo thành công:</p>                
         </div>
       </div>
     </div>
@@ -152,38 +156,36 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
-          <h2 class="mt-0">Vì sao tôi nên đăng ký tên miền Việt Nam!</h2>
+          <h2 class="mt-0">Bản ghi CNAME (Canonical name Record) hay còn gọi là Bản ghi bí danh</h2>
           <hr class="divider my-4">
-          <p class="text-muted mb-5">Được pháp luật Việt Nam bảo vệ: Khoản 3, Điều 12 - Luật Công nghệ thông tin quy định: Nghiêm cấm việc giả mạo trang thông tin điện tử của tổ chức, cá nhân khác; tạo đường dẫn trái phép đối với tên miền của tổ chức, cá nhân sử dụng hợp pháp tên miền đó.</p>
-          <p class="text-muted mb-5">Kỹ thuật tin cậy, an toàn: Hệ thống máy chủ tên miền “.vn” (DNS) quốc gia được giám sát 24/24 giờ với hệ thống dự phòng đảm bảo độ tin cậy, vận hành an toàn.</p>
-          <p class="text-muted mb-5">Truy vấn nhanh chóng: Được quản lý, đảm bảo bởi 07 cụm máy chủ DNS đặt tại các điểm khác nhau trên toàn thế giới giúp cho việc truy vấn tên miền “.vn” được thực hiện nhanh chóng.</p>
-          <p class="text-muted mb-5">Hạn chế tối đa khi mất liên lạc quốc tế: Sử dụng tên miền”.vn”, lưu trữ tại các máy chủ có địa chỉ IP ở Việt Nam, khi mất liên lạc quốc tế như những trường hợp đứt cáp quang biển thì liên lạc và giao dịch Internet trong nước vẫn không bị ảnh hưởng.</p>
-          <p class="text-muted mb-5">Được Hệ thống trung chuyển Internet trong nước - VNIX của VNNIC phục vụ: Sử dụng tên miền”.vn”, lưu trữ tại các máy chủ có địa chỉ IP ở Việt Nam được hệ thống trung chuyển Internet Quốc gia VNIX tự động trung chuyển tất cả lưu lượng Internet trong nước bằng con đường ngắn nhất, nhanh nhất.</p>
-          <p class="text-muted mb-5">Chăm sóc, hỗ trợ: VNNIC và các Nhà đăng ký tên miền “.vn” luôn sẵn sàng trợ giúp người đăng ký sử dụng giải quyết các vấn đề kỹ thuật cũng như hành chính liên quan đến tên miền “.vn”.</p>
-          <p class="text-muted mb-5">Đăng ký thuận tiện: Các chủ thể có nhu cầu đều có thể dễ dàng đăng ký tên miền “.vn” thông qua các Nhà đăng ký tên miền ".vn"  của VNNIC tại cả 3 miền Bắc, Trung, Nam  và ở nước ngoài với thủ tục đăng ký tên miền “.vn” đơn giản, nhanh chóng.</p>
+          <p class="text-muted mb-5">Bản ghi CNAME cho phép một server có thể có nhiều tên. Nói cách khác bản ghi CNAME cho phép nhiều tên miền cùng trỏ đến một địa chỉ IP cho trước.</p>
+          <p class="text-muted mb-5">Để có thể khai báo bản ghi CNAME, bắt buộc phải có bản ghi kiểu A để khai báo tên của máy. Tên miền được khai báo trong bản ghi kiểu A trỏ đến địa chỉ IP của máy được gọi là tên miền chính (canonical domain). Các tên miền khác muốn trỏ đến máy tính này phải được khai báo là bí danh của tên máy (alias domain).</p>
+          <p class="text-muted mb-5">Cú pháp của bản ghi CNAME: alias-domain IN CNAME canonical domain.</p>
+          <p class="text-muted mb-5">Ví dụ: Trỏ bản ghi CNAME cho tên miền blog.pavietnam.com.vn về pavietnam.com.vn. Tên miền blog.pavietnam.com.vn sẽ là tên bí danh của tên miền pavietnam.com.vn , hai tên miền pavietnam.com.vn và blog.pavietnam.com.vn sẽ cùng trỏ đến địa chỉ IP 202.92.4.44.</p>
+          <p class="text-muted mb-5">blog CNAME pavietnam.com.vn(Khai báo bản ghi CNAME ở tên miền pavietnam.com.vn: Tên bản ghi: blog - Loại bản ghi: CNAME - Giá trị bản ghi: pavietnam.com.vn)</p>
+          <p class="text-muted mb-5">Có thể kết hợp bản ghi A với CNAME để trỏ tên miền. Trong những lần sau nếu có thay đổi IP server thì chỉ cần cập nhật bản ghi A cho pavietnam.com.vn khi đó bản ghi blog.pavietnam.com.vn sẽ tự động trỏ sang IP mới.</p>
+          <p class="text-muted mb-5">Sau khi cập nhật thành công ta kiểm tra ping tên miền blog.pavietnam.com.vn sẽ trùng IP với pavietnam.com.vn</p>
       </div>
       </div>
     </div>
   </section>
-  
-    <!-- Masthead -->
-  <header class="masthead"  id="contact">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center justify-content-center text-center">
-        <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">Addon Domain</h1>
+
+
+  <!-- Contact Section -->
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="mt-0">Bản ghi MX - Mail Exchange Record</h2>
           <hr class="divider my-4">
+          <p class="text-muted mb-5">Bản ghi MX dùng để khai báo máy chủ chuyển thư điện tử tới của một tên miền.</p>
+          <p class="text-muted mb-5">Ví dụ: để các thư điện tử có cấu trúc user@pavietnam.com.vn được gửi đến máy chủ chuyển thư điện tử có tên SMTP.MAILER.PAVIETNAM.VN , trên cơ sở dữ liệu của DNS cần khai báo bản ghi MX như sau:</p>
+          <p class="text-muted mb-5">@ MX smtp.mailler.pavietnam.vn 5 (Khai báo bản ghi MX ở tên miền pavietnam.com.vn:Tên bản ghi: @,loại bản ghi: MX, giá trị bản ghi: smtp.mailer.pavietnam.vn, giá trị ưu tiên:-5 thể là một số nguyên bất kỳ từ 1 đến 255, nếu giá trị ưu tiên này càng nhỏ thì trạm chuyển tiếp thư điện tử được khai báo sau đó sẽ là trạm chuyển tiếp thư điện tử được chuyển đến đầu tiên.-Thì tất cả các thư điện tử gửi đến sẽ được ưu tiên gửi đến máy chủ SMTP.MAILER.pavietnam.VN trước.-Chỉ trong trường hợp máy chủ SMTP.MAILER.PAVIETNAM.VN không thể nhận thư thì các thư này mới được chuyển đến máy chủ thứ STORE.MAILER.PAVIETNAM.VN.</p>
+          <p class="text-muted mb-5">@ MX store.mailler.pavietnam.vn 10 (Khai báo bản ghi MX ở tên miền pavietnam.com.vn:Tên bản ghi: @,loại bản ghi: MX, giá trị bản ghi: store.mailer.pavietnam.vn, giá trị ưu tiên:-10 thể là một số nguyên bất kỳ từ 1 đến 255, nếu giá trị ưu tiên này càng nhỏ thì trạm chuyển tiếp thư điện tử được khai báo sau đó sẽ là trạm chuyển tiếp thư điện tử được chuyển đến đầu tiên.-Thì tất cả các thư điện tử gửi đến sẽ được ưu tiên gửi đến máy chủ SMTP.MAILER.pavietnam.VN trước.-Chỉ trong trường hợp máy chủ SMTP.MAILER.PAVIETNAM.VN không thể nhận thư thì các thư này mới được chuyển đến máy chủ thứ STORE.MAILER.PAVIETNAM.VN.</p>
         </div>
-        <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Addon Domain cho phép nhiều website chạy trên nhiều domain khác nhau trên cùng 1 account hosting.</p>
-          <p class="text-white-75 font-weight-light mb-5">Addon Domain là một domain mới sẽ nằm chung với domain chính nhưng có thư mục lưu trữ khác với domain chính.</p>
-          <p class="text-white-75 font-weight-light mb-5">Ví dụ: account hosting hiện đang có domain pavietnam.vn chúng ta có thể tạo ra thêm 1 addon domain mới như lab.vn có thư mục lưu trữ khác với domain pavietnam.vn</p>
-          <p class="text-white-75 font-weight-light mb-5">Khi chúng ta truy cập vào địa chỉ Addon Domain sẽ hiện lên nội dung của trang Addon Domain mà chúng ta mới tạo.</p>                 
-          <p class="text-white-75 font-weight-light mb-5">Để tạo Addon Domain kéo xuống mục DOMAINS -> Addon Domains</p>         
-services        </div>
       </div>
     </div>
-  </header>
+  </section>   
   
       <!-- Masthead -->
   <header class="masthead"  id="park">
@@ -347,3 +349,15 @@ services        </div>
 </body>
 
 </html>
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
