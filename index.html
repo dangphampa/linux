@@ -92,6 +92,7 @@
           <p class="text-white-75 font-weight-light mb-5">B2>Tạo bản ghi CNAME:Tên bản ghi: www, Loại: CNAME, Giá trị: nhập tên miền</p>
           <p class="text-white-75 font-weight-light mb-5">VD: www CNAME pavietnam.com.vn</p>
           <p class="text-white-75 font-weight-light mb-5">B2>Sau khi Cập nhật thành công, các bản ghi sẽ có hiệu lực chậm nhất không quá 30 phút.Sau 5 đến 10 phút ta sử dụng công cụ cmd để thực hiện ping kiểm tra, nếu trỏ thành công ta sẽ nhận được ping về IP 203.113.172.116</p>
+          <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
         </div>
       </div>
     </div>
@@ -106,7 +107,7 @@
           <p class="text-white-50 mb-4">Bản ghi này được sử dụng trong trường hợp bạn có 1 tên miền muốn người truy nhập khi gõ tên miền này thì tự động chuyển đến website của 1 tên miền khác</p>
           <p class="text-white-50 mb-4">VD: Trỏ bản ghi URL Redirect cho tên miền apolatlegal.vn về trang apolatlegal.com. Khi gõ apolatlegal.vn sẽ vào trang apolatlegal.com</p>
           <p class="text-white-50 mb-4">1 - @ Url Redirect apolatlegal.com (Khai báo bản ghi Redirect:- Tên bản ghi: @ - Loại bản ghi: Url Redirect - Giá trị bản ghi: apolatlegal.com)</p>
-          <p class="text-white-50 mb-4">2 apolatlegal.com Url Redirect http://apolatlegal.comn (Khai báo bản ghi Redirect:- Tên bản ghi: apolatlegal.com - Loại bản ghi: Url Redirect - Giá trị bản ghi: http://apolatlegal.com)</p>
+          <p class="text-white-50 mb-4">2 - apolatlegal.com Url Redirect http://apolatlegal.comn (Khai báo bản ghi Redirect:- Tên bản ghi: apolatlegal.com - Loại bản ghi: Url Redirect - Giá trị bản ghi: http://apolatlegal.com)</p>
           <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
        </div>
       </div>
@@ -126,6 +127,7 @@
           <p class="text-white-75 font-weight-light mb-5">VD: Trỏ tên miền pavietnam.com.vn về hosting có địa chỉ IP 202.92.4.44</p>
           <p class="text-white-75 font-weight-light mb-5">@ A 202.92.4.44(Khai báo bản ghi A ở tên miền pavietnam.com.vn: Tên bản ghi: @ - Loại bản ghi: A - Giá trị bản ghi: 202.92.4.44)</p>
           <p class="text-white-75 font-weight-light mb-5">Sau khi cập nhật xong ta kiểm tra bằng cách ping tên miền ra IP 202.92.4.44 là đã khai báo thành công:</p>                
+          <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
         </div>
       </div>
     </div>
@@ -145,7 +147,8 @@
           <p class="text-muted mb-5">blog CNAME pavietnam.com.vn(Khai báo bản ghi CNAME ở tên miền pavietnam.com.vn: Tên bản ghi: blog - Loại bản ghi: CNAME - Giá trị bản ghi: pavietnam.com.vn)</p>
           <p class="text-muted mb-5">Có thể kết hợp bản ghi A với CNAME để trỏ tên miền. Trong những lần sau nếu có thay đổi IP server thì chỉ cần cập nhật bản ghi A cho pavietnam.com.vn khi đó bản ghi blog.pavietnam.com.vn sẽ tự động trỏ sang IP mới.</p>
           <p class="text-muted mb-5">Sau khi cập nhật thành công ta kiểm tra ping tên miền blog.pavietnam.com.vn sẽ trùng IP với pavietnam.com.vn</p>
-      </div>
+          <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+        </div>
       </div>
     </div>
   </section>
@@ -162,6 +165,7 @@
           <p class="text-muted mb-5">Ví dụ: để các thư điện tử có cấu trúc user@pavietnam.com.vn được gửi đến máy chủ chuyển thư điện tử có tên SMTP.MAILER.PAVIETNAM.VN , trên cơ sở dữ liệu của DNS cần khai báo bản ghi MX như sau:</p>
           <p class="text-muted mb-5">@ MX smtp.mailler.pavietnam.vn 5 (Khai báo bản ghi MX ở tên miền pavietnam.com.vn:Tên bản ghi: @,loại bản ghi: MX, giá trị bản ghi: smtp.mailer.pavietnam.vn, giá trị ưu tiên:-5 thể là một số nguyên bất kỳ từ 1 đến 255, nếu giá trị ưu tiên này càng nhỏ thì trạm chuyển tiếp thư điện tử được khai báo sau đó sẽ là trạm chuyển tiếp thư điện tử được chuyển đến đầu tiên.-Thì tất cả các thư điện tử gửi đến sẽ được ưu tiên gửi đến máy chủ SMTP.MAILER.pavietnam.VN trước.-Chỉ trong trường hợp máy chủ SMTP.MAILER.PAVIETNAM.VN không thể nhận thư thì các thư này mới được chuyển đến máy chủ thứ STORE.MAILER.PAVIETNAM.VN.</p>
           <p class="text-muted mb-5">@ MX store.mailler.pavietnam.vn 10 (Khai báo bản ghi MX ở tên miền pavietnam.com.vn:Tên bản ghi: @,loại bản ghi: MX, giá trị bản ghi: store.mailer.pavietnam.vn, giá trị ưu tiên:-10 thể là một số nguyên bất kỳ từ 1 đến 255, nếu giá trị ưu tiên này càng nhỏ thì trạm chuyển tiếp thư điện tử được khai báo sau đó sẽ là trạm chuyển tiếp thư điện tử được chuyển đến đầu tiên.-Thì tất cả các thư điện tử gửi đến sẽ được ưu tiên gửi đến máy chủ SMTP.MAILER.pavietnam.VN trước.-Chỉ trong trường hợp máy chủ SMTP.MAILER.PAVIETNAM.VN không thể nhận thư thì các thư này mới được chuyển đến máy chủ thứ STORE.MAILER.PAVIETNAM.VN.</p>
+          <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
         </div>
       </div>
     </div>
@@ -180,6 +184,7 @@
           <p class="text-white-75 font-weight-light mb-5">Ví dụ: ta có domain chính pavietnam.vn chúng ta có thể tạo thêm một parked domain lab.com</p>
           <p class="text-white-75 font-weight-light mb-5">Khi chúng ta truy cập địa chỉ pavietnam.vn hoặc lab.com thì chúng ta sẽ nhận được nội dung giống nhau ở cả 2 domain trên</p>
           <p class="text-white-75 font-weight-light mb-5">Để tạo Parked Domain click vào mục DOMAINS --> Aliases</p>                 
+          <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
         </div>
       </div>
     </div>
@@ -199,6 +204,7 @@
           <p class="text-white-75 font-weight-light mb-5">Domain chính là pavietnam.vn</p>
           <p class="text-white-75 font-weight-light mb-5">Subdomain là lab.pavietnam.vn</p>                 
           <p class="text-white-75 font-weight-light mb-5">Để tạo Subdomain kéo xuống mục DOMAINS -> Subdomains</p>         
+          <img class="img-fluid" src="img/portfolio/thumbnails/7.jpg" alt="">
         </div>
       </div>
     </div>
@@ -217,6 +223,7 @@
           <p class="text-white-75 font-weight-light mb-5">Ví dụ: bạn có một host băng thông 2GB/tháng.</p>
           <p class="text-white-75 font-weight-light mb-5">Lúc đăng kí, account của bạn được tính là ngày thứ 1. Bạn upload lên một file nặng 30MB, như vậy bạn bị mất 30MB băng thông. Nếu có ai download file đó của bạn (hoặc nếu đó là file nhạc, khi họ nghe online cũng bị tính) thì băng thông sẽ bị trừ thêm 30MB, tức là còn 1940 MB băng thông, thêm một người nữa down file đó thì băng thông lại bị trừ đi v.v...</p>
           <p class="text-white-75 font-weight-light mb-5">Đến khi băng thông còn 0, sẽ không còn ai download được file đó nữa (link die). Nếu là file nhạc thì không nghe được, website sẽ không truy cập được nữa. Sau 31 ngày (tức là một tháng) kể từ ngày đăng kí, BW của account bạn sẽ được phục hồi như cũ.</p>
+          <img class="img-fluid" src="img/portfolio/thumbnails/8.jpg" alt="">
         </div>
       </div>
     </div>
